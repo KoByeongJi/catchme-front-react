@@ -5,8 +5,9 @@
 // import Section from './component/Section';
 // import { ToastContext } from './component/ToastProvider';
 // import AddToastButton from './component/AddToastButton';
-import NumContextProvider from './component/root/contexts/useNumContext';
-import { ParenentComponent } from './component/root/parent-component';
+// import NumContextProvider from './component/root/contexts/useNumContext';
+// import { ParenentComponent } from './component/root/parent-component';
+import { RefCounter, FirstCheck, MoveRect } from './component/RefTest';
 
 function App() {
   // const [flag, setFlag] = useState(false);
@@ -37,9 +38,13 @@ function App() {
       {/* <ToastContext.Provider value={values}>
         <AddToastButton />
       </ToastContext.Provider> */}
-      <NumContextProvider>
+      {/* <NumContextProvider>
         <ParenentComponent />
-      </NumContextProvider>
+      </NumContextProvider> */}
+
+      {/* <RefCounter />
+      <FirstCheck /> */}
+      <MoveRect />
     </div >
   );
 }
