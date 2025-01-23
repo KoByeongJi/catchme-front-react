@@ -7,7 +7,8 @@
 // import AddToastButton from './component/AddToastButton';
 // import NumContextProvider from './component/root/contexts/useNumContext';
 // import { ParenentComponent } from './component/root/parent-component';
-import { RefCounter, FirstCheck, MoveRect } from './component/RefTest';
+// import { RefCounter, FirstCheck, MoveRect } from './component/RefTest';
+import { Button, Button2 } from './component/buttonStyle';
 
 function App() {
   // const [flag, setFlag] = useState(false);
@@ -44,7 +45,11 @@ function App() {
 
       {/* <RefCounter />
       <FirstCheck /> */}
-      <MoveRect />
+      {/* <MoveRect /> */}
+
+      <Button background='red'>red button</Button>
+      <Button background='blue'>blue button</Button>
+      <Button2 background='yellow' color='green'>yellow button</Button2>
     </div >
   );
 }
